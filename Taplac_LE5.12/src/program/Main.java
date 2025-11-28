@@ -1,3 +1,5 @@
+//for console version
+
 import java.util.Scanner;
 
 public class Main {

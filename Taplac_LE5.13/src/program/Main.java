@@ -1,3 +1,5 @@
+//for console version
+
 package program;
 
 import model.ChallengeResponse;
@@ -23,7 +25,6 @@ public class Main {
             PinMapper mapper = new PinMapper();
             ChallengeResponse cr = new ChallengeResponse(pin, mapper);
 
-            // Show mapping table
             mapper.displayMapping();
 
             System.out.print("Enter the NUM values that correspond to your PIN: ");

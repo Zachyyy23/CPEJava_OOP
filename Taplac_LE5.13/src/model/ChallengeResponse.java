@@ -2,7 +2,7 @@ package model;
 
 public class ChallengeResponse {
 
-    private String actualPIN;       // real PIN (00000–99999)
+    private String actualPIN;
     private PinMapper mapper;       // randomized mapping
 
     public ChallengeResponse(String pin, PinMapper mapper) {

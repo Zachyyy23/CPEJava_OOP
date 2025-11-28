@@ -12,7 +12,6 @@ public class PinMapper {
         generateMapping();
     }
 
-    // Assign each digit a random number (1,2,3)
     public void generateMapping() {
         for (int i = 0; i < 10; i++) {
             mapping[i] = rand.nextInt(3) + 1;
